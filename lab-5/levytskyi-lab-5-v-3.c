@@ -9,6 +9,9 @@ int main(
     float r = rand() % 100;
     int attempt = 1;
     float user_input;
+    puts("(c) vad1m4");
+    puts("Vadym Levytskyi, Group KNMS-11. Lab #5");
+
     while (1)
     {
         if (!(attempt > 5))
@@ -21,13 +24,15 @@ int main(
                 puts("Go higher!");
             else
             {
-                printf("You're right! The number was %f", r);
+                printf("You're right! The number was %f\n", r);
+                system("PAUSE");
                 break;
             }
         }
         else
         {
-            printf("You ran out of attempts! The number was %f", r);
+            printf("You ran out of attempts! The number was %f\n", r);
+            system("PAUSE");
             break;
         }
     };

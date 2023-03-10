@@ -7,6 +7,9 @@ int main(
     float weight;
     float rec_weight;
 
+    puts("(c) vad1m4");
+    puts("Vadym Levytskyi, Group KNMS-11. Lab #4");
+
     puts("Input you height:");
     scanf("%f", &height);
     puts("Input your weight:");

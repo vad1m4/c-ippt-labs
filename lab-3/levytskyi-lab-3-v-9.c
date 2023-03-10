@@ -14,6 +14,10 @@ int main(
     scanf("%d", &amount);
     puts("Input the overall cost:");
     scanf("%d", &price);
-    result = (float)amount / price;
-    printf("Price: %f", result);
+    if (amount < price)
+        result = (float)price / amount;
+    else
+        result = (float)amount / price;
+    printf("Price: %f\n", result);
+    system("PAUSE");
 }
