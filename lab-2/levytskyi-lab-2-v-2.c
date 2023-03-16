@@ -12,10 +12,10 @@ int main(
 
     puts("Hello world! Input the amount of UAH you're interested in converting: ");
     scanf("%d", &money);
-    euro = money * 40;
-    usd = money * 37;
+    euro = money / 40;
+    usd = money / 37;
     printf("Your amount in EUR: %d. Your amount in USD: %d\n", euro, usd);
-    
+
     system("PAUSE");
     return 0;
 }
