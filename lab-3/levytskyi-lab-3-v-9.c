@@ -19,5 +19,7 @@ int main(
     else
         result = (float)amount / price;
     printf("Price: %f\n", result);
+    
     system("PAUSE");
+    return 0;
 }

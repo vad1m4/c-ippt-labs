@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(
     char *argv[], int argc)
@@ -21,4 +22,7 @@ int main(
         printf("You should eat less! Your recommended weight is %f\n", rec_weight);
     else
         printf("Your weight mactches your recommended weight! It's %f\n", rec_weight);
+        
+    system("PAUSE");
+    return 0;
 };

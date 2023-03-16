@@ -25,15 +25,16 @@ int main(
             else
             {
                 printf("You're right! The number was %f\n", r);
-                system("PAUSE");
                 break;
             }
         }
         else
         {
             printf("You ran out of attempts! The number was %f\n", r);
-            system("PAUSE");
             break;
         }
     };
+    
+    system("PAUSE");
+    return 0;
 };

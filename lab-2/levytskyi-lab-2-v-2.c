@@ -15,5 +15,7 @@ int main(
     euro = money * 40;
     usd = money * 37;
     printf("Your amount in EUR: %d. Your amount in USD: %d\n", euro, usd);
+    
     system("PAUSE");
+    return 0;
 }
